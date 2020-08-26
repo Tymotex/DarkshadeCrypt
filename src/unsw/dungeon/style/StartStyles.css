@@ -1,0 +1,19 @@
+.mainMenuButton {
+    -fx-background-color:
+        linear-gradient(#47474710, #35353515),
+        radial-gradient(center 50% -40%, radius 200%, #3b3b3b18 45%, #33333321 50%);
+    -fx-background-color:
+        linear-gradient(#35353510, #2f2f2f15),
+        radial-gradient(center 50% -40%, radius 200%, #29292918 45%, #31313121 50%);
+    -fx-margin: 20;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #ffffff;
+}
+
+.mainMenuButton:hover {
+    -fx-background-color:
+        linear-gradient(#25252591, #313131b4),
+        radial-gradient(center 50% -40%, radius 200%, #2f2f2f91 45%, #2c2c2cb4 50%);
+}

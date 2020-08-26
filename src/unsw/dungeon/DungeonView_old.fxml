@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane maxHeight="Infinity" maxWidth="Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.9" orientation="VERTICAL">
+        <items>
+          <AnchorPane centerShape="false" minHeight="0.0" minWidth="0.0" style="-fx-background-color: grey;" SplitPane.resizableWithParent="false">
+               <children>
+                  <GridPane fx:id="squares" alignment="BOTTOM_CENTER" onKeyPressed="#handleKeyPressed" onKeyReleased="#handleKeyReleased" style="-fx-border-style: solid; -fx-border-color: yellow; -fx-border-width: 10;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <columnConstraints>
+                        <ColumnConstraints />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints />
+                     </rowConstraints>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="200.0" minWidth="0.0" prefHeight="300.0" style="-fx-background-color: black;" SplitPane.resizableWithParent="false" />
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

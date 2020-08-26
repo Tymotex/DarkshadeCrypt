@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="1080.0" maxWidth="1920.0" minHeight="1080.0" minWidth="1920.0" onKeyPressed="#handleKeyPressed" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-image: url(&quot;brickwallpaper.png&quot;);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane fx:id="backgroundGrid" alignment="CENTER" layoutX="-5.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1088.0" prefWidth="1933.0" style="-fx-border-color: black; -fx-border-width: 10; -fx-border-style: solid;" AnchorPane.leftAnchor="-5.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="1000.0" minWidth="100.0" prefWidth="700.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="1067.0" minWidth="100.0" prefWidth="700.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="458.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="1.7976931348623157E308" minHeight="-Infinity" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="200.0" minHeight="200.0" prefHeight="200.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="200.0" minWidth="100.0" prefHeight="200.0" prefWidth="590.0" style="-fx-background-image: url(&quot;paperpanel.png&quot;); -fx-background-position: top left; -fx-background-size: cover, auto; -fx-background-color: black;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <children>
+                  <GridPane fx:id="inventoryGrid" alignment="TOP_CENTER" layoutX="73.0" layoutY="91.0" maxHeight="48.0" maxWidth="48.0" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: yellow; -fx-border-color: #3d0e00; -fx-border-style: solid; -fx-border-width: 5;">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="32.0" minWidth="48.0" prefWidth="48.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="32.0" minWidth="48.0" prefWidth="48.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="32.0" minWidth="48.0" prefWidth="48.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="32.0" minWidth="48.0" prefWidth="48.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="32.0" minWidth="48.0" prefWidth="48.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="32.0" minWidth="48.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="32.0" minWidth="48.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="32.0" minWidth="48.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="48.0" minHeight="48.0" prefHeight="48.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Pane maxHeight="48.0" maxWidth="48.0" minHeight="48.0" minWidth="48.0" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: #444444; -fx-border-style: solid; -fx-border-width: 4; -fx-border-color: #401103; -fx-background-image: url(&quot;inventory_slot.png&quot;);" GridPane.columnIndex="1" />
+                        <Pane maxHeight="48.0" maxWidth="48.0" minHeight="48.0" minWidth="48.0" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: #444444; -fx-border-style: solid; -fx-border-width: 4; -fx-border-color: #401103; -fx-background-image: url(&quot;inventory_slot.png&quot;);" GridPane.columnIndex="2" />
+                        <Pane maxHeight="48.0" maxWidth="48.0" minHeight="48.0" minWidth="48.0" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: #444444; -fx-border-style: solid; -fx-border-width: 4; -fx-border-color: #401103; -fx-background-image: url(&quot;inventory_slot.png&quot;);" GridPane.columnIndex="3" />
+                        <Pane maxHeight="48.0" maxWidth="48.0" minHeight="48.0" minWidth="48.0" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: #444444; -fx-border-style: solid; -fx-border-width: 4; -fx-border-color: #401103; -fx-background-image: url(&quot;inventory_slot.png&quot;);" GridPane.columnIndex="4" />
+                        <Pane maxHeight="48.0" maxWidth="48.0" minHeight="48.0" minWidth="48.0" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: #444444; -fx-border-style: solid; -fx-border-width: 4; -fx-border-color: #401103; -fx-background-image: url(&quot;inventory_slot.png&quot;);" />
+                        <Pane maxHeight="48.0" maxWidth="48.0" minHeight="48.0" minWidth="48.0" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: #444444; -fx-border-style: solid; -fx-border-width: 4; -fx-border-color: #401103; -fx-background-image: url(&quot;inventory_slot.png&quot;);" GridPane.columnIndex="5" />
+                        <Pane maxHeight="48.0" maxWidth="48.0" minHeight="48.0" minWidth="48.0" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: #444444; -fx-border-style: solid; -fx-border-width: 4; -fx-border-color: #401103; -fx-background-image: url(&quot;inventory_slot.png&quot;);" GridPane.columnIndex="6" />
+                        <Pane maxHeight="48.0" maxWidth="48.0" minHeight="48.0" minWidth="48.0" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: #444444; -fx-border-style: solid; -fx-border-width: 4; -fx-border-color: #401103; -fx-background-image: url(&quot;inventory_slot.png&quot;);" GridPane.columnIndex="7" />
+                     </children>
+                  </GridPane>
+                  <Text fill="WHITE" layoutX="118.0" layoutY="72.0" stroke="BLACK" strokeType="OUTSIDE" text="Inventory">
+                     <font>
+                        <Font name="System Bold" size="40.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="durabilityText" fill="WHITE" layoutX="65.0" layoutY="173.0" stroke="BLACK" strokeType="OUTSIDE" text="Durability">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="potionEffectText" fill="WHITE" layoutX="249.0" layoutY="173.0" nodeOrientation="RIGHT_TO_LEFT" stroke="BLACK" strokeType="OUTSIDE" text="Potion Timer" wrappingWidth="217.44140625">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="potionProgress" fill="WHITE" layoutX="482.0" layoutY="173.0" nodeOrientation="RIGHT_TO_LEFT" stroke="BLACK" strokeType="OUTSIDE" text="0">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Text>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Pane>
+            <Pane prefHeight="200.0" prefWidth="587.0" GridPane.rowIndex="1">
+               <children>
+                  <Pane layoutX="22.0" layoutY="127.0" maxHeight="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="227.0" prefWidth="488.0" style="-fx-background-color: darkslategrey; -fx-background-image: url(&quot;paperpanel.png&quot;); -fx-background-size: stretch; -fx-border-color: black; -fx-border-style: solid; -fx-border-image-width: 5;">
+                     <children>
+                        <Text fill="#f5dbdb" layoutX="143.0" layoutY="54.0" stroke="BLACK" strokeType="OUTSIDE" text="Checklist" textAlignment="CENTER" wrappingWidth="203.0">
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="117.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../images/coin.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="117.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../images/enemy.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="treasureGoalProgress" fill="#f5dbdb" layoutX="169.0" layoutY="113.0" stroke="BLACK" strokeType="OUTSIDE" text="&lt;coin count&gt;" wrappingWidth="203.0">
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="enemyGoalProgress" fill="#f5dbdb" layoutX="169.0" layoutY="158.0" stroke="BLACK" strokeType="OUTSIDE" text="&lt;enemy count&gt;" wrappingWidth="203.0">
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="117.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../images/switch.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="switchGoalProgress" fill="#f5dbdb" layoutX="169.0" layoutY="206.0" stroke="BLACK" strokeType="OUTSIDE" text="&lt;switch count&gt;" wrappingWidth="203.0">
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children></Pane>
+            <Pane prefHeight="200.0" prefWidth="200.0" />
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" />
+            <Pane prefHeight="253.0" prefWidth="689.0" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
+               <children>
+                  <Pane layoutX="44.0" layoutY="128.0" maxHeight="1.7976931348623157E308" prefWidth="450.0" style="-fx-background-color: darkslategrey; -fx-background-image: url(&quot;paperpanel.png&quot;); -fx-background-size: stretch; -fx-border-color: black; -fx-border-style: solid; -fx-border-image-width: 5;">
+                     <children>
+                        <Text fx:id="goalText" fill="WHITE" layoutX="71.0" layoutY="97.0" stroke="BLACK" strokeType="OUTSIDE" text="goal text goes here" wrappingWidth="671.8800048828125">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#f5dbdb" layoutX="124.0" layoutY="55.0" stroke="BLACK" strokeType="OUTSIDE" text="Objective" textAlignment="CENTER" wrappingWidth="203.0">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children></Pane>
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2" />
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <GridPane fx:id="squares" onKeyPressed="#handleKeyPressed" GridPane.columnIndex="1" GridPane.rowIndex="1">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+         </children>
+      </GridPane>
+      
+   </children>
+</AnchorPane>
