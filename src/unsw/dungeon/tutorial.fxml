@@ -29,12 +29,12 @@
                         <Font name="Yrsa SemiBold" size="32.0" />
                      </font>
                   </Button>
-                  <Text layoutX="49.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="David's Dungeon">
+                  <Text layoutX="49.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Darkshade Crypt">
                      <font>
                         <Font name="Rekha" size="66.0" />
                      </font>
                   </Text>
-                  <Text fill="WHITE" layoutX="42.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="2.0" text="David's Dungeon">
+                  <Text fill="WHITE" layoutX="42.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="2.0" text="Darkshade Crypt">
                      <font>
                         <Font name="Rekha" size="66.0" />
                      </font>
