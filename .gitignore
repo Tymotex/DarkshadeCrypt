@@ -2,9 +2,7 @@
 *.log
 hs_err_pid*
 /bin/
-/lib/
 images/deprecated/
-.vscode/
 /build/
 /.gradle/
 assets/bgm/deprecated/

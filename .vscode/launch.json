@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "cwd": "${workspaceRoot}",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JSONMapBuilder",
+            "request": "launch",
+            "mainClass": "test.JSONMapBuilder",
+            "projectName": "W11B-teamDavid2ElectricBoogaloo_73887c7e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DungeonApplication",
+            "request": "launch",
+            "vmArgs": "--module-path ./lib --add-modules javafx.controls,javafx.fxml --add-modules=javafx.swing,javafx.graphics,javafx.fxml,javafx.media,javafx.web --add-reads javafx.graphics=ALL-UNNAMED --add-opens javafx.controls/com.sun.javafx.charts=ALL-UNNAMED --add-opens javafx.graphics/com.sun.javafx.iio=ALL-UNNAMED --add-opens javafx.graphics/com.sun.javafx.iio.common=ALL-UNNAMED --add-opens javafx.graphics/com.sun.javafx.css=ALL-UNNAMED --add-opens javafx.base/com.sun.javafx.runtime=ALL-UNNAMED",
+            "mainClass": "unsw.dungeon.DungeonApplication"
+        }
+    ]
+}
